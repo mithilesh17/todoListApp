@@ -1,0 +1,41 @@
+.form-row{
+    display: flex;
+    text-align: center; 
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 10px; 
+} 
+
+.form-row > input{
+    border-color: 5px solid black;
+    border-radius: 2%;
+    line-height: .5cm;
+    width: max-content;
+    margin-left: 300px;
+    background-color: rgb(201, 211, 211);
+}
+
+.Main{
+    /* align-items: center; */
+    text-align: center;
+    background-color: rgb(141, 161, 144);
+    height: 500px;
+    /* width: 1000px; */
+}
+
+.order{
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn{
+    background-color:rgb(201, 211, 211);
+    border-radius: .2cm;
+}
+
+.btn-del{
+    background-color: rgb(203, 76, 76);
+    border-radius: .2cm;
+}
+
